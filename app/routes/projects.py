@@ -39,7 +39,7 @@ proyectos = [
             categoria="Desarrollo Web",
             imagen="http://127.0.0.1:8000/assets/img/Thinktopia.png",
             titulo="Thintopia - Plataforma de Actividades Academicas",
-            descripcion="",
+            descripcion="Este proyecto consiste en la creación de una plataforma web para gestionar y registrar actividades académicas en instituciones educativas. La plataforma busca mejorar la organización, participación y motivación de los estudiantes mediante herramientas interactivas, gamificación, métricas de desempeño y funcionalidades de gestión para docentes y estudiantes.",
             tecnologias="Angular, Django, HTML, CSS,BOOSTRAP",
             link_github="https://github.com/Academic-Developers/Thinktopia-Plataforma-de-actividades-Academicas"
         ),
