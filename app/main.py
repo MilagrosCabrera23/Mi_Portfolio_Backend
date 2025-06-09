@@ -1,6 +1,7 @@
+from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
-from fastapi.middleweare import CORSMiddleware
-from routes import proyectos
+from fastapi.middleware.cors import CORSMiddleware
+from app.routes import projects
 
 app = FastAPI()
 
@@ -15,7 +16,7 @@ app.add_middleware(
 # CORS, rutas, etc...   
 
 # Servir carpeta de imágenes
-app.mount("/assets", StaticFiles(directory="app/assets/img"), name="assets")
+app.mount("/assets", StaticFiles(directory="app/assets"), name="assets")
 
 # Agregar las rutas desde el archivo proyectos.py
-app.include_router(proyectos.router)
+app.include_router(projects.router)

@@ -1,8 +1,8 @@
 # PASO 3: Crear la ruta que devuelve los proyectos, EN DONDE PRIMERO IMPORTAMOS FAST API, Y LUEGO A PROJECTS QUE VIENE DE SCHEMAS 
 
-
 from fastapi import APIRouter
-from schemas.projects import Proyecto
+from app.schemas.projects import Proyecto
+from typing import List
 
 router = APIRouter()
 
@@ -35,7 +35,7 @@ proyectos = [
         link_github="https://github.com/MilagrosCabrera23/Escalado-de-plataforma-Iot-con-visualizacion-de-datos-en-node-red"
         ), 
         Proyecto(
-            id="4", 
+            id=4, 
             categoria="Desarrollo Web",
             imagen="http://127.0.0.1:8000/assets/img/Thinktopia.png",
             titulo="Thintopia - Plataforma de Actividades Academicas",
@@ -44,7 +44,7 @@ proyectos = [
             link_github="https://github.com/Academic-Developers/Thinktopia-Plataforma-de-actividades-Academicas"
         ),
         Proyecto(
-            id="5", 
+            id=5, 
             imagen="http://127.0.0.1:8000/assets/img/QR.png",
             categoria="Desarrollo Web",
             titulo="Codificador-Decodificador-QR-Python",
@@ -53,7 +53,7 @@ proyectos = [
             link_github="https://github.com/MilagrosCabrera23/Codificador-Decodificador-QR-Python"
         ), 
         Proyecto(
-            id="6", 
+            id=6, 
             imagen="http://127.0.0.1:8000/assets/img/acortador.png",
             categoria="Desarrollo Web",
             titulo="Acortador_URL_Python",
@@ -62,7 +62,7 @@ proyectos = [
             link_github="https://github.com/MilagrosCabrera23/Acortador_URL_Python"
         ), 
         Proyecto(
-            id="7", 
+            id=7, 
             imagen="http://127.0.0.1:8000/assets/img/prototipo-iot.png",
             categoria="IOT",
             titulo="Desarrollo de Prototipos IoT con ESP32",
@@ -72,7 +72,7 @@ proyectos = [
         )
 ]
 
-@router.get("./proyectos", response_model=list[Proyecto])
+@router.get("/proyectos", response_model=list[Proyecto])
 
 def obtener_proyectos():
     return proyectos
