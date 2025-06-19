@@ -13,7 +13,7 @@ proyectos = [
         imagen="http://127.0.0.1:8000/assets/img/arg-broker.png",
         titulo=" Arg Broker – Gestión de Inversiones",
         descripcion="Plataforma para gestionar inversiones financieras de forma sencilla. Permite registrarse, comprar y vender acciones, y visualizar el rendimiento del portafolio con gráficos e indicadores", 
-        tecnologias="Python, MySql, Patron Dao",
+        tecnologias="Python, MySql,Patron Dao",
         link_github="https://github.com/MilagrosCabrera23/proyecto_integrador_broker" 
     ), 
      Proyecto(
@@ -52,23 +52,24 @@ proyectos = [
             tecnologias="Python, Streamlit, OpenCV, qrcode",
             link_github="https://github.com/MilagrosCabrera23/Codificador-Decodificador-QR-Python"
         ), 
+       
         Proyecto(
             id=6, 
+            imagen="http://127.0.0.1:8000/assets/img/prototipo-iot.png",
+            categoria="IOT",
+            titulo="Desarrollo de Prototipos IoT con ESP32",
+            descripcion="Este repositorio contiene la implementación de dos proyectos IoT desarrollados, utilizan la plataforma ESP32 y el simulador Wokwi.",
+            tecnologias="MicroPython, ESP32, Wokwi",
+            link_github="https://github.com/MilagrosCabrera23/Desarrollo-de-Prototipos-IoT-con-ESP32n-Wokwi--Iot"
+        ),
+         Proyecto(
+            id=7, 
             imagen="http://127.0.0.1:8000/assets/img/acortador.png",
             categoria="Desarrollo Web",
             titulo="Acortador URL",
             descripcion="Esta es una aplicación web simple para acortar URLs utilizando Python y Streamlit. Con esta herramienta, los usuarios pueden ingresar una URL larga y generar una versión corta mediante la API de TinyURL",
             tecnologias="Python,Streamlit, Pyshortener",
             link_github="https://github.com/MilagrosCabrera23/Acortador_URL_Python"
-        ), 
-        Proyecto(
-            id=7, 
-            imagen="http://127.0.0.1:8000/assets/img/prototipo-iot.png",
-            categoria="IOT",
-            titulo="Desarrollo de Prototipos IoT con ESP32",
-            descripcion="Este repositorio contiene la implementación de dos proyectos IoT desarrollados como parte del curso de la Tecnicatura Superior en Desarrollo de Software del ISPC. Ambos proyectos utilizan la plataforma ESP32 y el simulador Wokwi.",
-            tecnologias="MicroPython, ESP32, Wokwi",
-            link_github="https://github.com/MilagrosCabrera23/Desarrollo-de-Prototipos-IoT-con-ESP32n-Wokwi--Iot"
         )
 ]
 
