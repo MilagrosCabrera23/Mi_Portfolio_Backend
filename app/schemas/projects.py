@@ -24,10 +24,16 @@ class Proyecto(BaseModel):
             raise ValueError("La imagen debe estar en la carpeta /assets/img/")
         return v
 
-    @field_validator('categoria', 'titulo', 'descripcion', 'tecnologias')
+    @field_validator('categoria', 'titulo', 'descripcion')
     def validar_campos(cls,v): 
         if not v.strip():
             raise ValueError("El campo NO puede estar vacio.")
+        return v
+
+    @field_validator('tecnologias')
+    def tecnologias_validas(cls, v):
+        if "," not in v:
+            raise ValueError("El campo 'tecnologias' debe contener al menos dos tecnologías separadas por coma")
         return v
 
     @field_validator('link_github')
