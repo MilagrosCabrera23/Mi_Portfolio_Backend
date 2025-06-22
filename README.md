@@ -58,11 +58,9 @@ El archivo `.env` contiene las variables sensibles necesarias para enviar correo
 MAIL_USERNAME=tu_correo@gmail.com
 MAIL_PASSWORD=tu_contraseña_o_app_password
 MAIL_FROM=tu_correo@gmail.com
-MAIL_PORT=587
-MAIL_SERVER=smtp.gmail.com
-MAIL_FROM_NAME="Formulario de Contacto" ```
 ```
-##  Pasos para correr el proyecto
+##  Pasos para correr el 
+
 ### 1. Clonar el repositorio
 
 ```bash
@@ -80,7 +78,6 @@ MAIL_PASSWORD=tu_contraseña_o_app_password
 MAIL_FROM=tu_correo@gmail.com
 MAIL_PORT=587
 MAIL_SERVER=smtp.gmail.com
-MAIL_FROM_NAME="Formulario de Contacto"
 ```
 ### 4.  Ejecutar el servidor
 ```bash
