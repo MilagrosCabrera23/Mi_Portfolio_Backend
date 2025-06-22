@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
-from app.routes import projects,contact
+from app.routes import projects
+from app.routes import contact
 
 app = FastAPI()
 

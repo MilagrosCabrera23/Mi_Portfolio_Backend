@@ -5,5 +5,5 @@ router = APIRouter()
 
 @router.post("/contacto")
 async def enviar_form(data:FormContact):
-    print("Formulario recibido", data)
+    print("Formulario recibido", data.model_dump())
     return {"Mensaje": "Formulario enviado con éxito"} 

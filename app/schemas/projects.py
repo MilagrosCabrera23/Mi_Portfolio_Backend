@@ -1,7 +1,5 @@
 # PASO 1: IMPORTAR LA LIBRERIA. 
 # PASO 2: CREAR LA CLASE BASE QUE CONTIENE TODOS LOS ATRIBUTOS QUE VA A ENVIAR AL FRONTEND
-
-
 from pydantic import BaseModel,HttpUrl, field_validator
 
 class Proyecto(BaseModel): 
@@ -38,6 +36,7 @@ class Proyecto(BaseModel):
 
     @field_validator('link_github')
     def link_valido(cls,v): 
-        if not v.startswith("https://github.com/"):
+          url_str = str(v)
+          if not url_str.startswith("https://github.com/"):
             raise ValueError("El link debe ser de github")
-        return v
+          return v

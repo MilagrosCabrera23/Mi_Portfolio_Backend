@@ -11,7 +11,7 @@ class FormContact(BaseModel):
     def nombre_valido(cls,v): 
          if not v.replace(" ", "").isalpha():
             raise ValueError("El nombre solo debe contener letras y espacios")
-         if len (v.strip() == 0):
+         if len (v.strip()) == 0:
             raise ValueError("El nombre NO debe estar vacio ")
          return v
     
@@ -32,6 +32,6 @@ class FormContact(BaseModel):
 
     @field_validator('mensaje')
     def mensaje_valido(cls,v): 
-         if not(10 <= len(v) <= 410):
-              raise ValueError("El mensaje debe tener entre 10 y 410 caracteres")
+         if not(7 <= len(v) <= 410):
+              raise ValueError("El mensaje debe tener entre 7 y 410 caracteres")
          return v
