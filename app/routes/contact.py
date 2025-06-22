@@ -21,7 +21,8 @@ async def enviar_form(form: FormContact):
                 </ul>
                 <p><strong>Mensaje:</strong><br>{form.mensaje}</p>
             """,
-            subtype=MessageType.html
+            subtype=MessageType.html,
+            reply_to=[form.email]
         )
 
         fm = FastMail(conf)          

@@ -29,6 +29,7 @@ Este proyecto es una API desarrollada con **FastAPI** que sirve como backend par
     ├── .env
     ├── config.py
     ├── main.py
+    ├── requirements.txt
 ```
 ## 🧪 Endpoints principales
 
