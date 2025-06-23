@@ -4,8 +4,14 @@ Este proyecto es una API desarrollada con **FastAPI** que sirve como backend par
 
 1.  Gestión de proyectos (para mostrar en el portafolio)
 2.  Formulario de contacto (con envío de correos)
+--- 
+# Enlaces de la API
 
+- 📬 **Contacto:** [https://milagroscabrera-portfoliobackend.onrender.com/contacto](https://milagroscabrera-portfoliobackend.onrender.com/contacto)
+- 📁 **Proyectos:** [https://milagroscabrera-portfoliobackend.onrender.com/proyectos](https://milagroscabrera-portfoliobackend.onrender.com/proyectos)
+- 📚 **Documentación Swagger (docs):** [https://milagroscabrera-portfoliobackend.onrender.com/docs](https://milagroscabrera-portfoliobackend.onrender.com/docs)
 ---
+
 
 ##  Tecnologías usadas
 
@@ -76,8 +82,7 @@ pip install -r requirements.txt
 MAIL_USERNAME=tu_correo@gmail.com
 MAIL_PASSWORD=tu_contraseña_o_app_password
 MAIL_FROM=tu_correo@gmail.com
-MAIL_PORT=587
-MAIL_SERVER=smtp.gmail.com
+
 ```
 ### 4.  Ejecutar el servidor
 ```bash
