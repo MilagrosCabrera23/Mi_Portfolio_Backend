@@ -28,7 +28,7 @@ proyectos = [
     Proyecto(
         id=3,
         categoria="IOT",
-        imagen="https://milagroscabrera-portfoliobackend.onrender.com/assets/img/sistema-iot.png",
+        imagen="https://milagroscabrera-portfoliobackend.onrender.com/assets/img/prototipo-iot.png",
         titulo="Sistema IoT con Node-Red",
          descripcion="Dashboard web en tiempo real para visualizar datos de sensores IoT (ESP32), integrados con MySQL. Incluye monitoreo continuo, alertas automáticas y escalabilidad para agregar nuevos dispositivos.",
          tecnologias="Esp32, Node-Red, MySql, Mqtt",
@@ -37,7 +37,7 @@ proyectos = [
         Proyecto(
             id=4, 
             categoria="Desarrollo Web",
-            imagen="https://milagroscabrera-portfoliobackend.onrender.com/assets/img/Thinktopia.png",
+            imagen="https://milagroscabrera-portfoliobackend.onrender.com/assets/img/thinktopia.png",
             titulo="Thintopia - Plataforma de Actividades Academicas",
             descripcion="Este proyecto consiste en la creación de una plataforma web para gestionar y registrar actividades académicas en instituciones educativas.",
             tecnologias="Angular, Django, Html, Css,Boostrap",
@@ -45,7 +45,7 @@ proyectos = [
         ),
         Proyecto(
             id=5, 
-            imagen="https://milagroscabrera-portfoliobackend.onrender.com/assets/img/QR.png",
+            imagen="https://milagroscabrera-portfoliobackend.onrender.com/assets/img/qr.png",
             categoria="Desarrollo Web",
             titulo="Codificador-Decodificador QR",
             descripcion="Este proyecto es un codificador y decodificador de códigos QR desarrollado en Python. Permite generar códigos QR a partir de texto y leer información desde códigos QR existentes.",
