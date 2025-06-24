@@ -6,7 +6,6 @@ from app.routes import contact
 
 app = FastAPI()
 
-# Permitir que React (u otras apps externas) accedan a esta API
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  

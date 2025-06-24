@@ -18,7 +18,7 @@ class Proyecto(BaseModel):
         return v
     @field_validator('imagen')
     def imagen_valida(cls, v):
-        if not v.startswith("http://127.0.0.1:8000/assets/img/"):
+        if not v.startswith("https://milagroscabrera-portfoliobackend.onrender.com/assets/img/"):
             raise ValueError("La imagen debe estar en la carpeta /assets/img/")
         return v
 
