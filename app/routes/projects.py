@@ -25,17 +25,8 @@ proyectos = [
         tecnologias="React, Firebase, Html, Css, Boostrap React",
         link_github="https://github.com/MilagrosCabrera23/EntregaFinal-React-CabreraMilagros" 
     ), 
-    Proyecto(
-        id=3,
-        categoria="IOT",
-        imagen="https://milagroscabrera-portfoliobackend.onrender.com/assets/img/prototipo-iot.png",
-        titulo="Sistema IoT con Node-Red",
-         descripcion="Dashboard web en tiempo real para visualizar datos de sensores IoT (ESP32), integrados con MySQL. Incluye monitoreo continuo, alertas automáticas y escalabilidad para agregar nuevos dispositivos.",
-         tecnologias="Esp32, Node-Red, MySql, Mqtt",
-        link_github="https://github.com/MilagrosCabrera23/Escalado-de-plataforma-Iot-con-visualizacion-de-datos-en-node-red"
-        ), 
         Proyecto(
-            id=4, 
+            id=3, 
             categoria="Desarrollo Web",
             imagen="https://milagroscabrera-portfoliobackend.onrender.com/assets/img/thinktopia.png",
             titulo="Thintopia - Plataforma de Actividades Academicas",
@@ -44,7 +35,7 @@ proyectos = [
             link_github="https://github.com/Academic-Developers/Thinktopia-Plataforma-de-actividades-Academicas"
         ),
         Proyecto(
-            id=5, 
+            id=4, 
             imagen="https://milagroscabrera-portfoliobackend.onrender.com/assets/img/qr.png",
             categoria="Desarrollo Web",
             titulo="Codificador-Decodificador QR",
@@ -52,18 +43,8 @@ proyectos = [
             tecnologias="Python, Streamlit, OpenCV, qrcode",
             link_github="https://github.com/MilagrosCabrera23/Codificador-Decodificador-QR-Python"
         ), 
-       
-        Proyecto(
-            id=6, 
-            imagen="https://milagroscabrera-portfoliobackend.onrender.com/assets/img/prototipo-iot.png",
-            categoria="IOT",
-            titulo="Desarrollo de Prototipos IoT con ESP32",
-            descripcion="Este repositorio contiene la implementación de dos proyectos IoT desarrollados, utilizan la plataforma ESP32 y el simulador Wokwi.",
-            tecnologias="MicroPython, ESP32, Wokwi",
-            link_github="https://github.com/MilagrosCabrera23/Desarrollo-de-Prototipos-IoT-con-ESP32n-Wokwi--Iot"
-        ),
          Proyecto(
-            id=7, 
+            id=5, 
             imagen="https://milagroscabrera-portfoliobackend.onrender.com/assets/img/acortador.png",
             categoria="Desarrollo Web",
             titulo="Acortador URL",
