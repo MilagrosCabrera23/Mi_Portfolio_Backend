@@ -32,7 +32,7 @@ proyectos = [
             titulo="Crud de Usuarios - API REST",
             descripcion="API REST completa para gestión de usuarios con operaciones CRUD, validación de datos con Pydantic y arquitectura modular siguiendo buenas prácticas de producción.",
             tecnologias="FastAPI, MySQL, SQLAlchemy, Pydantic, Uvicorn",
-            link_github="https://github.com/Academic-Developers/Thinktopia-Plataforma-de-actividades-Academicas"
+            link_github="https://github.com/MilagrosCabrera23/crud-de-usuarios"
         ),
         Proyecto(
             id=4, 
