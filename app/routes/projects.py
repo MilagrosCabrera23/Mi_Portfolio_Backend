@@ -48,7 +48,7 @@ proyectos = [
             categoria="Backend",
             imagen="https://milagroscabrera-portfoliobackend.onrender.com/assets/img/gestion-inventario.webp",
             titulo="Gestión de Inventario y Stock ",
-            descripcion="API REST robusta para control de inventario empresarial con gestión de productos, proveedores, movimientos de stock y reportes. Implementa autenticación, validaciones y arquitectura escalable.",
+            descripcion="API REST robusta para control de inventario empresarial con gestión de productos, proveedores, movimientos de stock y reportes.",
             tecnologias="Django, Django REST Framework, MySQL, JWT",
             link_github="https://github.com/MilagrosCabrera23/Gestion-de-inventario-y-stock"
         ), 
@@ -56,7 +56,7 @@ proyectos = [
             id=6, 
             categoria="Full Stack",
             imagen="https://milagroscabrera-portfoliobackend.onrender.com/assets/img/gestion-eventos.webp",
-            titulo="App de Gestion de  Gestión de eventos",
+            titulo="App de Gestion de eventos",
             descripcion="Aplicación para organización y gestión de eventos con registro de participantes, control de asistencia y dashboard administrativo.",
             tecnologias="FastAPI, React, MySQL, SQLAlchemy, JWT, Pydantic",
             link_github="https://github.com/MilagrosCabrera23/App-de-gestion-de-eventos"
